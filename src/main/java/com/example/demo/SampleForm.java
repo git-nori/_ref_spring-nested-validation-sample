@@ -7,9 +7,6 @@ import javax.validation.Valid;
 import javax.validation.constraints.Digits;
 import javax.validation.constraints.Size;
 
-import com.example.demo.ValidGroup.A;
-import com.example.demo.ValidGroup.B;
-
 public class SampleForm implements Serializable{
     @Size(min=2, groups= {A.class})
     private String sizeSampleStrA;

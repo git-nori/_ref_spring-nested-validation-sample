@@ -6,7 +6,6 @@ import java.math.BigDecimal;
 import javax.validation.constraints.Digits;
 import javax.validation.constraints.Size;
 
-import com.example.demo.ValidGroup.B;
 import com.fasterxml.jackson.databind.ser.std.StdKeySerializers.Default;
 
 public class SubSampleForm implements Serializable {
